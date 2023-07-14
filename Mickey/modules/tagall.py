@@ -1,4 +1,4 @@
-from mickey import mickeybot
+from Mickey import MickeyBot as app
 import asyncio
 import random
 from pyrogram import Client, filters
