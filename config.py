@@ -9,60 +9,40 @@ API_HASH = getenv("API_HASH", "cf2a75861140ceb746c7796e07cbde9e")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = int(getenv("OWNER_ID", 5350929381))
 MONGO_URL = getenv("MONGO_URL", None)
-SUPPORT_GRP = getenv("SUPPORT_GRP", "secret_societ")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "secret_societ")
-OWNER_USERNAME = getenv("OWNER_USERNAME","Me_johnny_deep")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "SAZIDBGD1")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "SAZIDBGD1")
+OWNER_USERNAME = getenv("OWNER_USERNAME","OfficiallyAgent")
 
 # Random Start Images
 IMG = [
-    "https://te.legra.ph/file/5bf629d10afd4af953585.jpg",
-    "https://te.legra.ph/file/7a321b99fe99d9d8b5117.jpg",
-    "https://te.legra.ph/file/c482a7e55b459ffe07502.jpg",
-    "https://telegra.ph//file/0879fbdb307005c1fa8ab.jpg",
-    "https://telegra.ph//file/19e3a9d5c0985702497fb.jpg",
-    "https://telegra.ph//file/b5fa277081dddbddd0b12.jpg",
-    "https://telegra.ph//file/96e96245fe1afb82d0398.jpg",
-    "https://telegra.ph//file/fb140807129a3ccb60164.jpg",
-    "https://telegra.ph//file/09c9ea0e2660efae6f62a.jpg",
-    "https://telegra.ph//file/3b59b15e1914b4fa18b71.jpg",
-    "https://telegra.ph//file/efb26cc17eef6fe82d910.jpg",
-    "https://telegra.ph//file/ab4925a050e07b00f63c5.jpg",
-    "https://telegra.ph//file/d169a77fd52b46e421414.jpg",
-    "https://telegra.ph//file/dab9fc41f214f9cded1bb.jpg",
-    "https://telegra.ph//file/e05d6e4faff7497c5ae56.jpg",
-    "https://telegra.ph//file/1e54f0fff666dd53da66f.jpg",
-    "https://telegra.ph//file/18e98c60b253d4d926f5f.jpg",
-    "https://telegra.ph//file/b1f7d9702f8ea590b2e0c.jpg",
-    "https://telegra.ph//file/7bb62c8a0f399f6ee1f33.jpg",
+    "https://telegra.ph/file/7d740f3eaa8d4ac62e020.jpg",
+    "https://telegra.ph/file/eec1de14818828d1144e3.jpg",
+    "https://telegra.ph/file/d3405b4f41d7b2899442d.jpg",
+    "https://telegra.ph/file/abe51d04bd9f7c802506c.jpg",
+    "https://telegra.ph/file/01b17e79aa0bd3875ed9a.jpg",
+    "https://telegra.ph/file/31633294580aec73650e9.jpg",
+    "https://telegra.ph/file/5259248afd14e703dd23f.jpg",
+    "https://telegra.ph/file/9e25fb45fd9a6393f1a09.jpg",
+    "https://telegra.ph/file/4cef2711ceddd4ac31f33.jpg",
+    "https://telegra.ph/file/17966f7bec31927c081f4.jpg",
+    "https://telegra.ph/file/5b5b057ce420fca5303e5.jpg",
+    "https://telegra.ph/file/422a41ffc759f0e0e276f.jpg",
+    "https://telegra.ph/file/6c82007ee963c0f123a20.jpg",
+    "https://telegra.ph/file/ee519e5939d7fa62aa09f.jpg",
+    "https://telegra.ph/file/ddc4ae53c27c265032df4.jpg",
+    "https://telegra.ph/file/d5ca67f437e3aa35b200b.jpg",
+    "https://telegra.ph/file/74c1f331c73cfa5e43ade.jpg",
+    "https://telegra.ph/file/44a20463ae82139e93dd0.jpg",
+    "https://telegra.ph/file/43acb316e80a3dd1b04ed.jpg",
     "https://telegra.ph//file/dd00c759805082830b6b6.jpg",
-    "https://telegra.ph//file/3b996e3241cf93d102adc.jpg",
-    "https://telegra.ph//file/610cc4522c7d0f69e1eb8.jpg",
-    "https://telegra.ph//file/bc97b1e9bbe6d6db36984.jpg",
-    "https://telegra.ph//file/2ddf3521636d4b17df6dd.jpg",
-    "https://telegra.ph//file/72e4414f618111ea90a57.jpg",
-    "https://telegra.ph//file/a958417dcd966d341bfe2.jpg",
-    "https://telegra.ph//file/0afd9c2f70c6328a1e53a.jpg",
-    "https://telegra.ph//file/82ff887aad046c3bcc9a3.jpg",
-    "https://telegra.ph//file/8ba64d5506c23acb67ff4.jpg",
-    "https://telegra.ph//file/8ba64d5506c23acb67ff4.jpg",
-    "https://telegra.ph//file/a7cba6e78bb63e1b4aefb.jpg",
-    "https://telegra.ph//file/f8ba75bdbb9931cbc8229.jpg",
-    "https://telegra.ph//file/07bb5f805178ec24871d3.jpg",
-    "https://telegra.ph/file/ec0ed654f5f5cefc90f95.jpg",
-    "https://telegra.ph/file/f6aa2a3659462401cb600.jpg",
-    "https://telegra.ph/file/0c3d91bcf75524a844883.jpg",
-    "https://telegra.ph/file/6c5df27e71e074f1c7123.jpg",
-    "https://telegra.ph/file/ff2ddc282fe7868e3cf73.jpg",
-    "https://telegra.ph/file/6130ea9373d5f60898a52.jpg",
-    "https://telegra.ph/file/45e5da1eab8f5892981ca.jpg",
 ]
 
 
 # Random Stickers
 STICKER = [
-    "CAACAgQAAxkBAALRi2NZXUgjZCT775L5Nr0XrLbQ6XIpAAK_EQACpvFxHq2xh5JRVJNrKgQ",
-    "CAACAgQAAxkBAALRjGNZXUs6YPggISBdtg4nXaU0vjNzAALqCwACbCIRU61ZQKi3F88DKgQ",
-    "CAACAgQAAxkBAALRjWNZXUvETcfHR2Yi9ftTQLLP2uD8AAIVDAAC1SMQU-QrCHEcbz8rKgQ",
+    "CAACAgEAAxkBAAMoZZ1kZjw6mgLiHFrqWQABYaMgVzq6AALsAQACc-mxR4CpqRkUZVFtHgQ",
+    "CAACAgEAAxkBAAMnZZ1kVlWO8ghxbU57PwHBY2Wa57oAAswBAAJB87hHUkWvBVh2glweBA",
+    "CAACAgEAAxkBAAMmZZ1kVUeZKSWzzzoFUx38twABVHCBAAKIAQACwry5R26SU50_bxSHHgQ",
 ]
 
 
@@ -75,6 +55,6 @@ EMOJIOS = [
     "🤡",
     "👻",
     "🎃",
-    "🎩",
-    "🕊",
+    "🤤",
+    "💞",
 ]
